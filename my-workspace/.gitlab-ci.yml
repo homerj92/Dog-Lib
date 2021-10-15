@@ -8,7 +8,7 @@ publish:
         - package.json
   script:
     - ls
-    - cd my-lib
+    - cd my-workspace
     - npm install
     - CI=false npm run prod
     - ls
